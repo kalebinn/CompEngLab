@@ -7,4 +7,5 @@ Contributors to all code: Kelvin M., Ryu O. and Franklin L.
 It is easy to modify: 
 - Duty Cycle (TIMEHIGHCNT, TIMELOWCNT)
 - Half period (BIGNUM)  
+
 **Output Data** Contains output images of the square wave from the oscilloscope. 
