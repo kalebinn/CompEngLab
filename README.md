@@ -1,7 +1,7 @@
 # EE42500 - Computer Engineering Lab    
-Course Instructor: Professor Alfredo Cano  
+**Course Instructor:** Professor Alfredo Cano  
 PIC Microcontroller  
-Contributors to all code:  
+**Contributors to all code:**    
 Franklin Lourido (EE, CCNY)  
 Kelvin Ma (EE, CCNY)  
 Ryu Ohkawa (EE, CCNY)  
