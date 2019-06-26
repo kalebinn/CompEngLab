@@ -1,0 +1,105 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Jun 25 16:53:29 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000006
+                   .org_2       code   0x000008    program   0x000004
+                   .org_3       code   0x000018    program   0x000216
+  .config_300000_P4_FIR.O       code   0x300000    program   0x000002
+  .config_300002_P4_FIR.O       code   0x300002    program   0x000002
+  .config_300004_P4_FIR.O       code   0x300004    program   0x000002
+  .config_300006_P4_FIR.O       code   0x300006    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000018    0x00022d      
+                            0x300000    0x300007      
+            552 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   ADWAIT   0x000022    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                   BYTE_1   0x0001f8    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 BarChars   0x000202    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+           ByteDisplayBOT   0x0001ac    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+           ByteDisplayTOP   0x0001ce    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 DisplayC   0x00013e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 DisplayV   0x000164    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                  InitLCD   0x000102    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                  Initial   0x0000a6    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L1   0x00001e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      L10   0x0001b0    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      L11   0x0001d2    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L2   0x000106    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L3   0x000118    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L4   0x000138    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L5   0x000148    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L6   0x000148    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L7   0x000166    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L9   0x000180    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                   LCDstr   0x0001f0    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 LoopTime   0x000180    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 Mainline   0x00001c    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                     RL10   0x0001c0    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                     RL11   0x0001e2    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL2   0x00010c    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL3   0x000132    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL4   0x00013c    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL6   0x000162    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL7   0x00017e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL9   0x000184    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      T40   0x000134    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                     WAIT   0x000094    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                    WAIT2   0x00009e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 Mainline   0x00001c    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L1   0x00001e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                   ADWAIT   0x000022    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                     WAIT   0x000094    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                    WAIT2   0x00009e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                  Initial   0x0000a6    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                  InitLCD   0x000102    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L2   0x000106    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL2   0x00010c    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L3   0x000118    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL3   0x000132    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      T40   0x000134    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L4   0x000138    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL4   0x00013c    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 DisplayC   0x00013e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L5   0x000148    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L6   0x000148    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL6   0x000162    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 DisplayV   0x000164    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L7   0x000166    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL7   0x00017e    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                       L9   0x000180    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 LoopTime   0x000180    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      RL9   0x000184    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+           ByteDisplayBOT   0x0001ac    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      L10   0x0001b0    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                     RL10   0x0001c0    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+           ByteDisplayTOP   0x0001ce    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                      L11   0x0001d2    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                     RL11   0x0001e2    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                   LCDstr   0x0001f0    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                   BYTE_1   0x0001f8    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+                 BarChars   0x000202    program     static O:\EE425 1XC SUMMER 2019\Group 2\P4\P4_FIR.asm
+
+
