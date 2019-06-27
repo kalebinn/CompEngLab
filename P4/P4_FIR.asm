@@ -111,21 +111,21 @@ ADWAIT
 		movwf SUMH
 
 ; DIVIDER
-		bcf SUML, 0 	; set lower 4 bits of SUML to 0
-		bcf SUML, 1		; primes SUML for Swap
-		bcf SUML, 2
-		bcf SUML, 3
-		swapf SUML,F	; swap upper 4 bits with lower 4 bits of SUML
 
-		bcf SUMH, 4		; set upper 4 bits of SUMH to 0
-		bcf SUMH, 5		; primes SUMH for swap
-		bcf SUMH, 6
-		bcf SUMH, 7
- 		swapf SUMH,F	; swap lower 4 bits with upper 4 bits of SUMH
+		movf SUML, W		; Working Register = SUML
+		andlw B'11110000'	; LOGIC AND performed between literal value and Working Register
+		movwf SUML			; SUML = Working Register
+		swapf SUML,F		; swap upper 4 bits with lower 4 bits of SUML
+
+
+		movf SUMH, W		; Working Register = SUMH
+		andlw B'00001111'	; LOGIC AND performed between literal value and Working Register
+		movwf SUMH 			; SUMH = Working Register
+		swapf SUMH,F		; swap lower 4 bits with upper 4 bits of SUMH
 
 		movf SUML, W		
 		addwf SUMH, W 
-		movwf FINALSUM ; FINALSUM contains the 8 bits that needs to be passed into the DAC
+		movwf FINALSUM 		; FINALSUM contains the 8 bits that needs to be passed into the DAC
 
 		bcf PORTC, RC0	
 		bcf PIR1, SSPIF
@@ -141,7 +141,7 @@ WAIT2
 		btfss PIR1,SSPIF	; check if SSPIF == 1 
 		bra WAIT2			; WAIT IF SSPIF == 1
 		bsf PORTC, RC0
-
+ 
         bra	L1
 
 
@@ -151,7 +151,7 @@ WAIT2
 
 Initial
         MOVLF  B'10001110',ADCON1      ;Enable PORTA & PORTE digital I/O pins
-		MOVLF  B'10000100',ADCON2	   ;Right Justification
+		MOVLF  B'10000000',ADCON2	   ;Right Justification
         MOVLF  B'11100001',TRISA       ;Set I/O for PORTA
         MOVLF  B'11011100',TRISB       ;Set I/O for PORTB
         MOVLF  B'11010000',TRISC       ;Set I/0 for PORTC
@@ -174,7 +174,7 @@ Initial
 		MOVLF  B'00000000', SUMH
 		MOVLF  B'00000000', FINALSUM
 
-		rcall  InitLCD
+
         return
 
         end
