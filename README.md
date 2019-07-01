@@ -30,4 +30,7 @@ It is easy to modify:
 
 The exact nyquist frequency is 12,500.306 hz or approximately 12.5 khz.  
 The sample frequency is then 25,000.612 hz or approximately 25 khz.  
-
+  
+ **Frequency Response of a sine wave input**  
+![Frequency Fresponse](https://raw.githubusercontent.com/kalebinn/CompEngLab/master/P4/Output/SineFrequencyResponse.PNG)    
+This is the frequency response of a sine wave, with frequency sweep from 50hz to 13,000 khz.  
